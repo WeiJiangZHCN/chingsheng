@@ -28,7 +28,6 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
-        # 移除 static_site_generator: nuxt，因为该选项目前主要针对传统 Node/NPM 流程
 
       - name: Install dependencies
         run: bun install --frozen-lockfile
