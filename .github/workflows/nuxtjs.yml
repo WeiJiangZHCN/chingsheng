@@ -51,7 +51,7 @@ jobs:
         run: bun install
 
       - name: Static HTML export with Nuxt
-        run: bun run generate
+        run: bun run build
 
       # 上传构建产物
       - name: Upload artifact
