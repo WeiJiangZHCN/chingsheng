@@ -29,7 +29,9 @@ export default defineNuxtConfig({
   },
   ssr:false,
   compatibilityDate: '2025-01-15',
-
+  app: {
+    baseURL: '/chingsheng/' // 替换为你的仓库名
+  },
   eslint: {
     config: {
       stylistic: {
